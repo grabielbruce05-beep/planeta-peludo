@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Planeta Peludo: servicios presenciales de estética canina y catálogo demostrativo de accesorios para mascotas.">
+  <meta name="theme-color" content="#f7f1e8">
+  <title>Planeta Peludo | Cuidado y accesorios para mascotas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Planeta Peludo, ir al inicio">
+        <span class="brand-mark" aria-hidden="true">🐾</span>
+        <span class="brand-name">Planeta <strong>Peludo</strong><small>Un mundo de mimos</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#catalogo">Accesorios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+        <a class="nav-cart" href="#carrito">Mi carrito <span id="cartCount" class="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span aria-hidden="true">✦</span> Para los que tienen patitas</span>
+          <h1>Mucho amor,<br><span>un mundo peludo.</span></h1>
+          <p class="hero-text">Cuidamos su look y celebramos cada aventura. Descubre nuestros servicios de estética canina y accesorios pensados para consentir a tu mejor amigo.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#servicios">Conocer servicios <span aria-hidden="true">→</span></a>
+            <a class="button button-outline" href="#catalogo">Ver accesorios</a>
+          </div>
+          <div class="hero-note"><span class="note-icon" aria-hidden="true">💚</span><span><strong>Su bienestar primero</strong><small>Atención con cariño y paciencia.</small></span></div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-blob"></div>
+          <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=900&q=85" alt="Perro feliz mirando a la cámara" class="hero-dog">
+          <div class="floating-card floating-top"><span>🐶</span><span><strong>Colitas felices</strong><small>Empieza aquí</small></span></div>
+          <div class="floating-card floating-bottom"><span class="heart">♥</span><span><strong>Hecho con amor</strong><small>Para cada mascota</small></span></div>
+          <span class="decor decor-star" aria-hidden="true">✦</span>
+          <span class="decor decor-paw" aria-hidden="true">🐾</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Características del negocio">
+      <div class="container trust-items">
+        <div><span aria-hidden="true">🛁</span><span>Estética presencial</span></div>
+        <div><span aria-hidden="true">🦴</span><span>Accesorios para cada aventura</span></div>
+        <div><span aria-hidden="true">💬</span><span>Consultas por WhatsApp</span></div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="servicios">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Cuidado de nariz a colita</span>
+          <h2>Servicios para <span>sentirse genial</span></h2>
+          <p>Los servicios de estética se realizan presencialmente en el local. Escríbenos para consultar disponibilidad y coordinar una cita.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon service-icon-mint" aria-hidden="true">🛁</div>
+            <h3>Baño y limpieza</h3>
+            <p>Un baño para refrescarse, con cuidado y atención a las necesidades de cada peludito.</p>
+            <a href="#contacto" class="text-link" data-service="Baño y limpieza">Consultar servicio <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon service-icon-peach" aria-hidden="true">✂️</div>
+            <h3>Corte de pelo</h3>
+            <p>Un look cómodo y bonito, adaptado al tipo de pelaje y estilo de tu mascota.</p>
+            <a href="#contacto" class="text-link" data-service="Corte de pelo">Consultar servicio <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon service-icon-lilac" aria-hidden="true">🐩</div>
+            <h3>Arreglo canino</h3>
+            <p>Detalles de cuidado para que tu compañero se vea y se sienta de maravilla.</p>
+            <a href="#contacto" class="text-link" data-service="Arreglo canino">Consultar servicio <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+        <p class="section-footnote">Precios, horarios y disponibilidad de los servicios: por confirmar con el local.</p>
+      </div>
+    </section>
+
+    <section class="section catalog-section" id="catalogo">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Pequeños detalles, grandes colitas</span>
+          <h2>Accesorios para <span>cada aventura</span></h2>
+          <p>Explora el catálogo demostrativo. Los productos y precios son ejemplos académicos y deben confirmarse antes de una compra real.</p>
+        </div>
+        <div class="catalog-tools">
+          <label class="search-box" for="productSearch">
+            <span aria-hidden="true">⌕</span>
+            <input id="productSearch" type="search" placeholder="Buscar accesorios..." autocomplete="off">
+          </label>
+          <div class="filter-wrap">
+            <label for="categoryFilter" class="visually-hidden">Filtrar por categoría</label>
+            <select id="categoryFilter">
+              <option value="todos">Todas las categorías</option>
+              <option value="paseo">Paseo</option>
+              <option value="juego">Juego</option>
+              <option value="cuidado">Cuidado</option>
+            </select>
+          </div>
+        </div>
+        <p id="resultsSummary" class="results-summary" aria-live="polite">Mostrando accesorios</p>
+        <div class="product-grid" id="productGrid">
+          <article class="product-card" data-id="correa" data-name="Correa paseo alegre" data-category="paseo" data-price="29.90">
+            <div class="product-image product-image-peach"><img src="https://images.unsplash.com/photo-1601758123927-196e9c8c7c9b?auto=format&fit=crop&w=700&q=80" alt="Perro con correa durante un paseo" loading="lazy"><span class="product-tag">Paseo</span></div>
+            <div class="product-info"><p class="product-category">PASEO</p><h3>Correa paseo alegre</h3><div class="product-bottom"><strong>S/ 29.90</strong><button class="add-button" data-add="correa" aria-label="Agregar Correa paseo alegre al carrito">+ Agregar</button></div></div>
+          </article>
+          <article class="product-card" data-id="juguete" data-name="Juguete mordedor" data-category="juego" data-price="18.50">
+            <div class="product-image product-image-mint"><img src="https://images.unsplash.com/photo-1535294435445-d7249524ef2e?auto=format&fit=crop&w=700&q=80" alt="Perro jugando con su juguete" loading="lazy"><span class="product-tag">Juego</span></div>
+            <div class="product-info"><p class="product-category">JUEGO</p><h3>Juguete mordedor</h3><div class="product-bottom"><strong>S/ 18.50</strong><button class="add-button" data-add="juguete" aria-label="Agregar Juguete mordedor al carrito">+ Agregar</button></div></div>
+          </article>
+          <article class="product-card" data-id="comedero" data-name="Comedero minimal" data-category="cuidado" data-price="24.90">
+            <div class="product-image product-image-lilac"><img src="https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=700&q=80" alt="Accesorios para la alimentación de una mascota" loading="lazy"><span class="product-tag">Cuidado</span></div>
+            <div class="product-info"><p class="product-category">CUIDADO</p><h3>Comedero minimal</h3><div class="product-bottom"><strong>S/ 24.90</strong><button class="add-button" data-add="comedero" aria-label="Agregar Comedero minimal al carrito">+ Agregar</button></div></div>
+          </article>
+          <article class="product-card" data-id="pelota" data-name="Pelota saltarina" data-category="juego" data-price="12.90">
+            <div class="product-image product-image-yellow"><img src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=700&q=80" alt="Perro jugando al aire libre" loading="lazy"><span class="product-tag">Juego</span></div>
+            <div class="product-info"><p class="product-category">JUEGO</p><h3>Pelota saltarina</h3><div class="product-bottom"><strong>S/ 12.90</strong><button class="add-button" data-add="pelota" aria-label="Agregar Pelota saltarina al carrito">+ Agregar</button></div></div>
+          </article>
+          <article class="product-card" data-id="cepillo" data-name="Cepillo suave" data-category="cuidado" data-price="21.00">
+            <div class="product-image product-image-mint"><img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=700&q=80" alt="Dos perros con pelaje cuidado" loading="lazy"><span class="product-tag">Cuidado</span></div>
+            <div class="product-info"><p class="product-category">CUIDADO</p><h3>Cepillo suave</h3><div class="product-bottom"><strong>S/ 21.00</strong><button class="add-button" data-add="cepillo" aria-label="Agregar Cepillo suave al carrito">+ Agregar</button></div></div>
+          </article>
+          <article class="product-card" data-id="pañuelo" data-name="Pañuelo divertido" data-category="paseo" data-price="15.90">
+            <div class="product-image product-image-peach"><img src="https://images.unsplash.com/photo-1551717743-49959800b1f6?auto=format&fit=crop&w=700&q=80" alt="Perro con pañuelo colorido" loading="lazy"><span class="product-tag">Paseo</span></div>
+            <div class="product-info"><p class="product-category">PASEO</p><h3>Pañuelo divertido</h3><div class="product-bottom"><strong>S/ 15.90</strong><button class="add-button" data-add="pañuelo" aria-label="Agregar Pañuelo divertido al carrito">+ Agregar</button></div></div>
+          </article>
+        </div>
+        <div id="noResults" class="empty-state" hidden>
+          <span aria-hidden="true">🐾</span><h3>No encontramos accesorios</h3><p>Prueba con otra palabra o categoría.</p>
+          <button class="button button-outline" id="clearFilters">Limpiar filtros</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cart-section" id="carrito">
+      <div class="container cart-layout">
+        <div class="cart-intro">
+          <span class="eyebrow">Tu selección</span>
+          <h2>La bolsita <span>peluda</span></h2>
+          <p>Agrega accesorios para ver el resumen y el total estimado. Este carrito es solo una demostración: no procesa pagos ni registra pedidos reales.</p>
+          <div class="demo-note"><span aria-hidden="true">ⓘ</span><span>Los precios son referenciales. Confirma disponibilidad, entrega y precio final con el negocio.</span></div>
+        </div>
+        <div class="cart-panel">
+          <div class="cart-panel-header"><h3>Resumen del carrito</h3><span id="cartItemLabel">0 artículos</span></div>
+          <div id="cartItems" class="cart-items" aria-live="polite">
+            <div class="cart-empty"><span aria-hidden="true">🧺</span><p>Tu carrito está vacío.</p><small>Agrega un accesorio para comenzar.</small></div>
+          </div>
+          <div class="cart-total"><span>Total estimado</span><strong id="cartTotal">S/ 0.00</strong></div>
+          <button id="cartWhatsApp" class="button button-primary button-full">Consultar selección por WhatsApp</button>
+          <p class="cart-disclaimer">No se realiza ningún pago ni se confirma una compra desde esta página.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-image-wrap">
+          <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=900&q=85" alt="Perro feliz disfrutando de un momento al aire libre" loading="lazy">
+          <div class="about-sticker"><span>💚</span><strong>Más cariño<br>en cada detalle</strong></div>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow">Hola, somos Planeta Peludo</span>
+          <h2>Ellos son familia.<br><span>Y merecen lo mejor.</span></h2>
+          <p>Planeta Peludo es una propuesta de negocio que combina servicios presenciales de estética canina con un catálogo inicial de accesorios para paseo, juego y cuidado.</p>
+          <p>Queremos facilitar la consulta de servicios, la coordinación de citas y el descubrimiento de productos útiles para las mascotas.</p>
+          <div class="about-points"><div><span>✓</span> Atención coordinada con el local</div><div><span>✓</span> Catálogo claro y fácil de explorar</div><div><span>✓</span> Consulta sencilla desde el celular</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contacto">
+      <div class="container contact-card">
+        <div class="contact-copy">
+          <span class="eyebrow">¿Listos para mover la colita?</span>
+          <h2>¡Hablemos de tu <span>peludito!</span></h2>
+          <p>Consulta sobre los servicios presenciales o pregunta por los accesorios del catálogo.</p>
+          <a href="#" id="contactWhatsApp" class="button button-light">Escribir por WhatsApp <span aria-hidden="true">↗</span></a>
+          <small>Recuerda: las citas se coordinan con el local y los envíos corresponden únicamente a accesorios.</small>
+        </div>
+        <div class="contact-decoration" aria-hidden="true"><span class="big-paw">🐾</span><span class="little-heart">♥</span><span class="little-star">✦</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">🐾</span><span class="brand-name">Planeta <strong>Peludo</strong><small>Un mundo de mimos</small></span></a>
+      <p>Un proyecto académico para un mundo más amable con nuestras mascotas.</p>
+      <nav aria-label="Enlaces del pie de página"><a href="#servicios">Servicios</a><a href="#catalogo">Accesorios</a><a href="#contacto">Contacto</a></nav>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="currentYear"></span> Planeta Peludo · Proyecto académico PA2</span><span>Productos y precios de ejemplo · Sin pagos en línea</span></div>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
