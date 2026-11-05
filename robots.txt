@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://grabielbruce05-beep.github.io/planeta-peludo/sitemap.xml
